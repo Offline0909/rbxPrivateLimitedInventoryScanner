@@ -9,6 +9,8 @@ To do list:
 
 -Roblox API changes have rate-limited the "inventory.roblox.com/v1/(userid)/items/asset(itemid)" API, meaning that this program will not work in its current state. In a future build, proxy support will be added. This also has the benefit of allowing terminated-user inventory scanning, which otherwise was unfeasible and unincluded due to the same reasoning.
 
+-Roblox API has also *potentially* deprecated some endpoints used, fixing this should be trivial.
+
 -Error handling is not included as of now, if something has gone wrong, it is most likely due to a change in one of the API endpoints used.
 
 -Ways to export data rather than command line output (probably just write to file if user wants).
